@@ -6,7 +6,5 @@ import GameSavingLoader from './gamesavingloader';
     return prossedData;
   } catch (error) {
     return error;
-  } finally {
-    return 'Промис завершён';
   }
 })();
